@@ -9,8 +9,8 @@ public class HelloRestController {
 	
 	@GetMapping(value="/")
 	public String hello() {
-		//return "Welcome to jenkins workshop of Sure Ganesh Reddy/Geetha";
-		return "Hello Nellore People";
+		return "Welcome to jenkins workshop of Sure Ganesh Reddy/Geetha";
+		//return "Hello Nellore People";
 	}
 
 }
